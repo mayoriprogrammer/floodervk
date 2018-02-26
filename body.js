@@ -26,7 +26,7 @@ vk.api.call('users.get')
 console.log('[Авторизация] Успешно зашел на страницу. Ид: %s', res[0].id);
 BOTS_ID.push(res[0].id);
 })
-console.log('coded by vk.com/mayorihvh)'
+console.log('coded by vk.com/mayorihvh');
 
 var random = (x, y) => y ? Math.round(Math.random() * (y - x)) + x : Math.round(Math.random() * x);
 var rand = (array) => array[random(array.length - 1)];
